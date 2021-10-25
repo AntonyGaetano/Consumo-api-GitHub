@@ -14,7 +14,8 @@ export default function Bio(props){
        justifyContent:"center",
        alignItems:"center",
        gap:"1rem",
-       margin:"0.9rem 0"
+       margin:"0.9rem 0",
+       
     }
 
     var estilo_divs = {
@@ -26,7 +27,8 @@ export default function Bio(props){
         borderRadius:"0px",
         boxShadow:"0px 0px 6px gray",
         color:"white",
-        backgroundColor:"gray"
+        backgroundColor:"gray",
+        borderRadius:"4px"
      }
 
 return(

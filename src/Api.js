@@ -22,12 +22,6 @@ export default function Api(){
         fetch(`https://api.github.com/users/${nome}`)
         .then(res => res.json())
         .then(data=>{
-              console.log(data)
-              console.log(data.name)
-              console.log(data.public_repos)
-              console.log(data.followers)
-              console.log(data.following)
-              console.log(data.blog)
               setimagem(true)
               setusuario(data)
         })
@@ -41,7 +35,7 @@ export default function Api(){
 
         <Bio bio={usuario.bio} />
 
-        <input style={estilo_input_button} type="text"  onChange={(e)=>setnome(e.target.value)}/>
+        <input style={estilo_input_button} type="text" placeholder="Digite aqui" onChange={(e)=>setnome(e.target.value)}/>
         <button style={estilo_input_button}  onClick={()=>ChamaAPi()}>Buscar</button>
        </main>
    )
