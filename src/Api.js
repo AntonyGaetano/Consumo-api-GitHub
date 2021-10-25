@@ -9,6 +9,7 @@ export default function Api(){
 
    const [nome, setnome] = useState("?")
    const [usuario, setusuario] = useState("?")
+   const [imagem, setimagem] = useState(false)
 
 
  
@@ -20,20 +21,19 @@ export default function Api(){
               console.log(data)
               console.log(data.name)
               console.log(data.public_repos)
-              console.log(data.location)
               console.log(data.followers)
               console.log(data.following)
               console.log(data.blog)
-            
+              setimagem(true)
               setusuario(data)
         })
    }
 
    return(
        <main>
-        <Header img={usuario.avatar_url} nome={usuario.name}/>
+        <Header img_link={usuario.avatar_url} nome={usuario.name} imagem={imagem}/>
 
-        <Main repositorio={usuario.public_repos} location={usuario.location} followers={usuario.followers} following={usuario.following}/>
+        <Main repositorio={usuario.public_repos}  followers={usuario.followers} following={usuario.following}/>
 
         <Bio bio={usuario.bio} contato={usuario.blog}/>
 

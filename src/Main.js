@@ -11,33 +11,39 @@ export default function Main(props){
      width:"100%",
      border:"1x solid",
      justifyContent:"center",
-      alignItems:"center",
-      gap:"1rem"
+    alignItems:"center",
+    gap:"1rem"
   }
 
- 
+ var estilo_divs = {
+    width:"90px",
+    display:"flex",
+    flexDirection:"column",
+    border:"1px solid black",
+    padding:"1.2rem 1rem",
+    borderRadius:"10px",
+    boxShadow:"0px 0px 6px gray"
+ }
 
 return(
     <section style={estilo_section}>
-     <div>
+
+     <div style={estilo_divs}>
        <p>Repository:</p>
        <span>{props.repositorio}</span>
      </div>
 
-     <div>
+     <div style={estilo_divs}>
        <p>Followers:</p>
        <span>{props.followers}</span>
      </div>
 
-     <div>
+     <div style={estilo_divs}>
       <p>Following:</p>
       <span>{props.following}</span>
      </div>
 
-     <div>
-      <p>Location:</p>
-      <span>{props.location}</span>
-    </div>
+  
     </section>
 )
 }
