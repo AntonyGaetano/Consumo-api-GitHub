@@ -3,8 +3,22 @@ import React from "react";
 
 export default function Main(props){
 
+  
+
+  var estilo_section = {
+     display:"flex",
+     flexWrap:"wrap",
+     width:"100%",
+     border:"1x solid",
+     justifyContent:"center",
+      alignItems:"center",
+      gap:"1rem"
+  }
+
+ 
+
 return(
-    <section>
+    <section style={estilo_section}>
      <div>
        <p>Repository:</p>
        <span>{props.repositorio}</span>
