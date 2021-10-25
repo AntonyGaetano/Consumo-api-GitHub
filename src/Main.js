@@ -1,5 +1,6 @@
 
 import React from "react";
+import { isCompositeComponentWithType } from "react-dom/test-utils";
 
 export default function Main(props){
 
@@ -22,7 +23,9 @@ export default function Main(props){
     border:"1px solid black",
     padding:"1.2rem 1rem",
     borderRadius:"10px",
-    boxShadow:"0px 0px 6px gray"
+    boxShadow:"0px 0px 6px gray",
+    color:"white",
+    backgroundColor:"#202124"
  }
 
 return(
