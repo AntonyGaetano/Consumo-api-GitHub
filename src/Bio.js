@@ -13,7 +13,8 @@ export default function Bio(props){
        border:"1x solid",
        justifyContent:"center",
        alignItems:"center",
-       gap:"1rem"
+       gap:"1rem",
+       margin:"0.9rem 0"
     }
 
     var estilo_divs = {
@@ -32,8 +33,6 @@ return(
        <p>Biografia:</p>
        <span>{props.bio === null ? "sem bio":props.bio}</span>
       </div>
-    <p>Contato:</p>
-    <span>{props.contato}</span>
     </section>
 )
 }

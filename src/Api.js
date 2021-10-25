@@ -12,6 +12,10 @@ export default function Api(){
    const [imagem, setimagem] = useState(false)
 
 
+   var estilo_input_button = {
+       padding:"5px",
+
+   }
  
 
     const ChamaAPi =() =>{
@@ -35,10 +39,10 @@ export default function Api(){
 
         <Main repositorio={usuario.public_repos}  followers={usuario.followers} following={usuario.following}/>
 
-        <Bio bio={usuario.bio} contato={usuario.blog}/>
+        <Bio bio={usuario.bio} />
 
-        <input type="text"  onChange={(e)=>setnome(e.target.value)}/>
-        <button onClick={()=>ChamaAPi()}>Buscar</button>
+        <input style={estilo_input_button} type="text"  onChange={(e)=>setnome(e.target.value)}/>
+        <button style={estilo_input_button}  onClick={()=>ChamaAPi()}>Buscar</button>
        </main>
    )
 }

@@ -17,7 +17,7 @@ export default function Header(props){
 
 return(
     <section style={estilo_section}>
-     <img style={{width:"120px", borderRadius:"50%"}} src={props.imagem?props.img_link:ImgReserva}/>
+     <img style={{width:"135px", borderRadius:"50%"}} src={props.imagem?props.img_link:ImgReserva}/>
 
      <h3>{props.nome}</h3>
     </section>
