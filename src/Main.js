@@ -20,7 +20,7 @@ export default function Main(props){
     width:"90px",
     display:"flex",
     flexDirection:"column",
-    border:"1px solid black",
+    border:"1px solid white",
     padding:"1.2rem 1rem",
     borderRadius:"10px",
     boxShadow:"0px 0px 6px gray",

@@ -25,7 +25,7 @@ export default function Bio(props){
         textAlign:"center",
         padding:"1rem 0.3rem",
         borderRadius:"0px",
-        boxShadow:"0px 0px 6px gray",
+        boxShadow:"0px 0px 6px black",
         color:"white",
         backgroundColor:"gray",
         borderRadius:"4px"
