@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - Foi usado o fetch para fazer o cosumo da API do GITHUB!
 - Por meio desse projeto pode-se ter os dados dos usuários do GitHub pelo o mundo!
-- Atráve nome ou usuário informado pode se ter:
+- Atráves do nome ou usuário informado pode se ter:
   - O número de repositório
   - O número de seguidores
   - O total de pessoas que está seguindo
