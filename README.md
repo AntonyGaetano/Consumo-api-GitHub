@@ -81,7 +81,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - O total de pessoas que está seguindo
   - A biografia do usuário
 
-### Loyout para notebook e desktop
+### Layout para notebook e desktop
 
 <img src="gif/app_reactgithun_telanot.gif">
 
