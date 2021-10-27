@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# API GitHub
+
+### Esse projeto foi desenvolvido para consumir dados de uma API!
+
+- Foi usado o fetch para fazer o cosumo da API do GITHUB!
+- Por meio desse projeto pode-se ter os dados dos usuários do GitHub pelo o mundo!
+- Atráve nome ou usuário informado pode se ter:
+  - O número de repositório
+  - O número de seguidores
+  - O total de pessoas que está seguindo
+  - A biografia do usuário
+
+### Loyout para notebook e desktop
+
+<img src="gif/app_reactgithun_telanot.gif">
+
+
+🚀Tecnologias usadas:
+- ✔React.js
+- ✔CSS
+- ✔Hook useState
+
